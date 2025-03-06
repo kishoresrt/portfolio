@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Engineer Portfolio</title>
+  <link rel="stylesheet" href="srt1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <div class="logo">
+          <a href="#home">Engineer.io</a>
+        </div>
+        
+        <!-- Desktop Navigation -->
+        <nav class="nav-links">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#assignments" class="nav-link">Assignments</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#courses" class="nav-link">Courses</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        
+        <!-- Mobile Navigation Toggle -->
+        <button class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav">
+      <button class="close-menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#assignments" class="mobile-nav-link">Assignments</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#courses" class="mobile-nav-link">Courses</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#education" class="mobile-nav-link">Education</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>
+              <span>Hi, I'm</span>
+              <span class="gradient-text">John Doe</span>
+            </h1>
+            <h2>Professional Software Engineer</h2>
+            <p>Specializing in building exceptional digital experiences with a focus on performance, accessibility, and cutting-edge technologies.</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Projects</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-image-container">
+              <div class="profile-image-glow"></div>
+              <div class="profile-image">
+                <img src="https://via.placeholder.com/320" alt="John Doe">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- About Section -->
+      <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm a passionate software engineer with over 5 years of experience building web applications and solving complex problems. My journey in tech started when I built my first website at 15, and I've been hooked ever since.</p>
+            <p>I specialize in front-end development with React and Next.js, but I'm also proficient in back-end technologies. I believe in writing clean, maintainable code and creating intuitive user experiences.</p>
+            <p>When I'm not coding, you can find me hiking, reading tech blogs, or experimenting with new technologies. I'm always looking for new challenges and opportunities to grow.</p>
+          </div>
+          
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="card-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Developer</h3>
+              <p>I enjoy bringing ideas to life in the browser, creating responsive and performant web applications.</p>
+            </div>
+            
+            <div class="about-card">
+              <div class="card-icon purple">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <h3>Professional</h3>
+              <p>With experience at top tech companies, I've learned to work efficiently in team environments.</p>
+            </div>
+            
+            <div class="about-card">
+              <div class="card-icon blue">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h3>Continuous Learner</h3>
+              <p>Technology evolves rapidly, and I'm committed to staying at the forefront of innovation.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Assignments Section -->
+      <section id="assignments" class="section">
+        <h2 class="section-title">Assignments</h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="assignments-grid">
+          <div class="assignment-card" data-id="1">
+            <div class="assignment-image">
+              <img src="https://via.placeholder.com/400x300" alt="Web Application Architecture">
+            </div>
+            <div class="assignment-content">
+              <h3>Web Application Architecture</h3>
+              <p>Designed and implemented a scalable web application architecture using microservices.</p>
+              <div class="assignment-tags">
+                <span class="tag">Architecture</span>
+                <span class="tag">Microservices</span>
+                <span class="tag">AWS</span>
+              </div>
+              <button class="view-details">
+                <span>View Details</span>
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="assignment-card" data-id="2">
+            <div class="assignment-image">
+              <img src="https://via.placeholder.com/400x300" alt="UI/UX Case Study">
+            </div>
+            <div class="assignment-content">
+              <h3>UI/UX Case Study</h3>
+              <p>Conducted a comprehensive UI/UX case study for an e-commerce platform.</p>
+              <div class="assignment-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">Research</span>
+                <span class="tag">Figma</span>
+              </div>
+              <button class="view-details">
+                <span>View Details</span>
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="assignment-card" data-id="3">
+            <div class="assignment-image">
+              <img src="https://via.placeholder.com/400x300" alt="Database Optimization">
+            </div>
+            <div class="assignment-content">
+              <h3>Database Optimization</h3>
+              <p>Optimized database queries and structure for a high-traffic application.</p>
+              <div class="assignment-tags">
+                <span class="tag">SQL</span>
+                <span class="tag">Optimization</span>
+                <span class="tag">Performance</span>
+              </div>
+              <button class="view-details">
+                <span>View Details</span>
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="assignment-card" data-id="4">
+            <div class="assignment-image">
+              <img src="https://via.placeholder.com/400x300" alt="API Development">
+            </div>
+            <div class="assignment-content">
+              <h3>API Development</h3>
+              <p>Developed a RESTful API with comprehensive documentation and testing.</p>
+              <div class="assignment-tags">
+                <span class="tag">API</span>
+                <span class="tag">REST</span>
+                <span class="tag">Documentation</span>
+              </div>
+              <button class="view-details">
+                <span>View Details</span>
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="assignment-card" data-id="5">
+            <div class="assignment-image">
+              <img src="https://via.placeholder.com/400x300" alt="Mobile App Development">
+            </div>
+            <div class="assignment-content">
+              <h3>Mobile App Development</h3>
+              <p>Created a cross-platform mobile application using React Native.</p>
+              <div class="assignment-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">Cross-platform</span>
+              </div>
+              <button class="view-details">
+                <span>View Details</span>
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="assignment-card" data-id="6">
+            <div class="assignment-image">
+              <img src="https://via.placeholder.com/400x300" alt="Security Implementation">
+            </div>
+            <div class="assignment-content">
+              <h3>Security Implementation</h3>
+              <p>Implemented security best practices and authentication systems.</p>
+              <div class="assignment-tags">
+                <span class="tag">Security</span>
+                <span class="tag">Authentication</span>
+                <span class="tag">OAuth</span>
+              </div>
+              <button class="view-details">
+                <span>View Details</span>
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="skills-container">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>TypeScript</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>React</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Next.js</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Node.js</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>HTML/CSS</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="95"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Tailwind CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>SQL</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="75"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="other-skills">
+          <h3>Other Technologies & Tools</h3>
+          <div class="other-skills-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Adobe XD</span>
+            <span class="tag">Jest</span>
+            <span class="tag">Redux</span>
+            <span class="tag">GraphQL</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">Netlify</span>
+            <span class="tag">Webpack</span>
+            <span class="tag">Babel</span>
+            <span class="tag">ESLint</span>
+            <span class="tag">Prettier</span>
+            <span class="tag">npm</span>
+            <span class="tag">yarn</span>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Courses Section -->
+      <section id="courses" class="section">
+        <h2 class="section-title">Courses & Certifications</h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="courses-tabs">
+          <button class="course-tab active" data-id="1">Advanced React Patterns</button>
+          <button class="course-tab" data-id="2">Full Stack Development with Next.js</button>
+          <button class="course-tab" data-id="3">TypeScript for Professionals</button>
+          <button class="course-tab" data-id="4">Cloud Architecture on AWS</button>
+        </div>
+        
+        <div class="courses-content">
+          <div class="course-panel active" data-id="1">
+            <div class="course-header">
+              <div>
+                <h3>Advanced React Patterns</h3>
+                <p class="course-provider">Frontend Masters</p>
+              </div>
+              <div class="course-meta">
+                <div class="meta-item">
+                  <i class="far fa-calendar"></i>
+                  <span>Jan 2023</span>
+                </div>
+                <div class="meta-item">
+                  <i class="far fa-clock"></i>
+                  <span>12 hours</span>
+                </div>
+                <div class="meta-item certified">
+                  <i class="fas fa-award"></i>
+                  <span>Certified</span>
+                </div>
+              </div>
+            </div>
+            
+            <p class="course-description">Deep dive into advanced React patterns including compound components, render props, and hooks.</p>
+            
+            <div class="course-skills">
+              <h4>Skills Acquired</h4>
+              <div class="course-skills-tags">
+                <span class="tag">React</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Design Patterns</span>
+              </div>
+            </div>
+            
+            <div class="course-actions">
+              <button class="btn btn-outline">View Certificate</button>
+            </div>
+          </div>
+          
+          <div class="course-panel" data-id="2">
+            <div class="course-header">
+              <div>
+                <h3>Full Stack Development with Next.js</h3>
+                <p class="course-provider">Vercel</p>
+              </div>
+              <div class="course-meta">
+                <div class="meta-item">
+                  <i class="far fa-calendar"></i>
+                  <span>Mar 2023</span>
+                </div>
+                <div class="meta-item">
+                  <i class="far fa-clock"></i>
+                  <span>20 hours</span>
+                </div>
+                <div class="meta-item certified">
+                  <i class="fas fa-award"></i>
+                  <span>Certified</span>
+                </div>
+              </div>
+            </div>
+            
+            <p class="course-description">Comprehensive course on building full-stack applications with Next.js, including API routes and database integration.</p>
+            
+            <div class="course-skills">
+              <h4>Skills Acquired</h4>
+              <div class="course-skills-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">React</span>
+                <span class="tag">API Design</span>
+                <span class="tag">Database</span>
+              </div>
+            </div>
+            
+            <div class="course-actions">
+              <button class="btn btn-outline">View Certificate</button>
+            </div>
+          </div>
+          
+          <div class="course-panel" data-id="3">
+            <div class="course-header">
+              <div>
+                <h3>TypeScript for Professionals</h3>
+                <p class="course-provider">Udemy</p>
+              </div>
+              <div class="course-meta">
+                <div class="meta-item">
+                  <i class="far fa-calendar"></i>
+                  <span>May 2023</span>
+                </div>
+                <div class="meta-item">
+                  <i class="far fa-clock"></i>
+                  <span>15 hours</span>
+                </div>
+                <div class="meta-item certified">
+                  <i class="fas fa-award"></i>
+                  <span>Certified</span>
+                </div>
+              </div>
+            </div>
+            
+            <p class="course-description">Advanced TypeScript concepts including generics, utility types, and type inference.</p>
+            
+            <div class="course-skills">
+              <h4>Skills Acquired</h4>
+              <div class="course-skills-tags">
+                <span class="tag">TypeScript</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Type Systems</span>
+              </div>
+            </div>
+            
+            <div class="course-actions">
+              <button class="btn btn-outline">View Certificate</button>
+            </div>
+          </div>
+          
+          <div class="course-panel" data-id="4">
+            <div class="course-header">
+              <div>
+                <h3>Cloud Architecture on AWS</h3>
+                <p class="course-provider">AWS Training</p>
+              </div>
+              <div class="course-meta">
+                <div class="meta-item">
+                  <i class="far fa-calendar"></i>
+                  <span>Jul 2023</span>
+                </div>
+                <div class="meta-item">
+                  <i class="far fa-clock"></i>
+                  <span>25 hours</span>
+                </div>
+                <div class="meta-item certified">
+                  <i class="fas fa-award"></i>
+                  <span>Certified</span>
+                </div>
+              </div>
+            </div>
+            
+            <p class="course-description">Designing scalable and resilient architectures using AWS services.</p>
+            
+            <div class="course-skills">
+              <h4>Skills Acquired</h4>
+              <div class="course-skills-tags">
+                <span class="tag">AWS</span>
+                <span class="tag">Cloud Architecture</span>
+                <span class="tag">DevOps</span>
+              </div>
+            </div>
+            
+            <div class="course-actions">
+              <button class="btn btn-outline">View Certificate</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="projects-grid">
+          <div class="project-card" data-id="1">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x400" alt="E-Commerce Platform">
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Platform</h3>
+              <p>A full-featured e-commerce platform with product management, cart functionality, and payment processing.</p>
+              <div class="project-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Stripe</span>
+                <span class="tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Live Demo</span>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <button class="project-details-btn">
+                  <span>Details</span>
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card" data-id="2">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x400" alt="Task Management App">
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>A collaborative task management application with real-time updates and team features.</p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
+                <span class="tag">Socket.io</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Live Demo</span>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <button class="project-details-btn">
+                  <span>Details</span>
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content right">
+              <h3>Master of Science in Computer Science</h3>
+              <h4>Stanford University</h4>
+              
+              <div class="timeline-meta">
+                <div class="meta-item">
+                  <i class="far fa-calendar"></i>
+                  <span>2018 - 2020</span>
+                </div>
+                <div class="meta-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Stanford, CA</span>
+                </div>
+              </div>
+              
+              <p>Specialized in Artificial Intelligence and Machine Learning. Thesis on "Neural Networks for Natural Language Processing".</p>
+              
+              <div class="education-courses">
+                <h5>Key Courses</h5>
+                <div class="education-tags">
+                  <span class="tag">Advanced Algorithms</span>
+                  <span class="tag">Machine Learning</span>
+                  <span class="tag">Neural Networks</span>
+                  <span class="tag">Computer Vision</span>
+                  <span class="tag">Natural Language Processing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content left">
+              <h3>Bachelor of Science in Computer Engineering</h3>
+              <h4>Massachusetts Institute of Technology</h4>
+              
+              <div class="timeline-meta">
+                <div class="meta-item">
+                  <i class="far fa-calendar"></i>
+                  <span>2014 - 2018</span>
+                </div>
+                <div class="meta-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Cambridge, MA</span>
+                </div>
+              </div>
+              
+              <p>Graduated with honors. Participated in multiple hackathons and research projects.</p>
+              
+              <div class="education-courses">
+                <h5>Key Courses</h5>
+                <div class="education-tags">
+                  <span class="tag">Data Structures</span>
+                  <span class="tag">Computer Architecture</span>
+                  <span class="tag">Operating Systems</span>
+                  <span class="tag">Database Systems</span>
+                  <span class="tag">Web Development</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision. Feel free to contact me using the form or the contact information.</p>
+            
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="far fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>contact@johndoe.com</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <p>+1 (123) 456-7890</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>San Francisco, CA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required placeholder="Subject">
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary submit-btn">
+                <i class="far fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+              
+              <div class="form-message"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <div class="footer-logo">Engineer.io</div>
+            <p>Building the future, one line of code at a time.</p>
+          </div>
+          
+          <div class="footer-social">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="far fa-envelope"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <div class="copyright">
+            © <span id="current-year"></span> Engineer.io. All rights reserved.
+          </div>
+          
+          <div class="footer-links">
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+            <a href="#" class="footer-link">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Modals -->
+  <div class="modal" id="assignment-modal">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <div class="modal-body">
+        <!-- Content will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="project-modal">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <div class="modal-body">
+        <!-- Content will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="srt1.js"></script>
+</body>
+</html>
